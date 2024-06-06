@@ -1,0 +1,13 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      driver: 'ODBC Driver 17 for SQL Server'
+      server: your_sql_server_host
+      port: 1433
+      database: your_database_name
+      schema: dbo
+      user: your_username
+      password: your_password
+      authentication: 'sql'
